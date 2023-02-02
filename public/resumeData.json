@@ -1,0 +1,170 @@
+{
+  "main": {
+    "name": "Sherin Valestrand",
+    "occupation": "Web Developer",
+    "description": "junior web developer",
+    "image": "profilepic.jpg",
+    "preferens": "only 1 h per day", 
+    "bio": "Positive, energetic, mobile moving, likes to work in teams and independently, can speak and write in five different languages.",
+    "contactmessage": "I will reply to your message as soon as I can",
+    "email": "sherin.valestrand@gmail.com",
+    "phone": "0733 28 17 96",
+    "address": {
+      "street": "Björcksgatan 31a",
+      "city": "Gothenburg",
+      "state": "Sweden",
+      "zip": "416 52"
+    },
+    "website": "",
+    "resumedownload": "/doc/sherin_eng_cv.pdf",
+    "resumedownload_sw": "/doc/sherin_cv.pdf",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/",
+        "className": "fa fa-facebook"
+      },
+    
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/shic0",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "blabla bla ect...",
+    "education": [
+      {
+        "school": "Medieinstitutet, Gothenburg Sweden",
+        "degree": "Web development within E-commerce",
+        "graduated": "May 2022",
+        "description": "Front and backend development - HTML5, CSS3, JavaScript, React, Vue, PHP, WordPress and SQL. System support and third party systems, responsive web development and connection with E-commerce systems.",
+        "url": "https://medieinstitutet.se/utbildningar/webbutvecklare-inom-e-handel/"
+      },
+      {
+        "school": "University of Technology Sydney",
+        "degree": "Bachelor of Business",
+        "graduated": "2013 - 2015",
+        "description": "Marketing, Management, Innovation and financial management",
+        "url": "https://www.uts.edu.au/study/find-a-course/bachelor-business#course-overview"
+      }
+    ],
+    "work": [
+      {
+        "company": "WorkPrecision",
+        "title": "Project Manager",
+        "years": "May 2022 - 1 March",
+        "description": "Scrum Master / Project Manager",
+        "url": "http://www.workprecision.com/"
+      },
+      {
+        "company": "Discovery+",
+        "title": "Customer Service",
+        "years": "June - September 2022",
+        "description": "Bla bla bla",
+        "url": "https://www.discoveryplus.com/se"
+      },
+      {
+        "company": "TikTok",
+        "title": "Ads Content Moderator",
+        "years": "May - October 2021",
+        "description": "Bla bla blaa",
+        "url": "https://careers.tiktok.com/position/6898721843169249550/detail"
+      },
+      {
+        "company": "Bondi Icebergs Club",
+        "title": "Bartender / Assistant Event Manager",
+        "years": "July 2019 - February 2020",
+        "description": "Blablallaja",
+        "url": "http://icebergs.com.au/"
+      }
+    ],
+    "language": [
+      {
+        "name": "Swedish",
+        "level": "100%"
+      },
+      {
+        "name": "English",
+        "level": "100%"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "WordPress",
+        "level": "45%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "40%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "85%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "40%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "40%"
+      },
+      {
+        "name": "SQL",
+        "level": "30%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Hemlagat Restaurang",
+        "category": "Front END ReactJS / Back END Express",
+        "image": "Hemlagat.jpg",
+        "url": "https://mat-three.vercel.app/"
+      },
+      {
+        "title": "WordPress",
+        "category": "wooCommerce e-shop",
+        "image": "labb_1.png",
+        "url": "https://github.com/shic0/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "some text here",
+        "user": "sombody1"
+      },
+      {
+        "text": "WorkPrecision",
+        "user": "Johan Apel"
+      }
+    ]
+  }
+}
