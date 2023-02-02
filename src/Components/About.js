@@ -31,35 +31,9 @@ class About extends Component {
                      alt="Sherin Valestrand"
                      style={{marginBottom: '1rem', borderRadius: '55px', maxWidth: '210px'}}
                      />
-                  <span>{name}</span>
                      <span>{preferenses}</span>
-               </div>
-         
-            {/* <Blob
-            className="profile-pic"
-            size="30vh"
-            style={{
-               border: "3px solid orange",
-               top: '15%',
-               right: '35%',
-               zIndex: 0,
-               backgroundColor: '#eaeff5',
-               color: 'grey',
-               height: '380px',
-               opacity: 47.05,
-               fontSize: '3vh'
-            }}
-         >
-               <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                  <img
-                     className="img"
-                     src={profilepic}
-                     alt="Sherin Valestrand"
-                     style={{marginBottom: '1rem', borderRadius: '55px', maxWidth: '210px'}}
-                     />
                   <span>{name}</span>
                </div>
-            </Blob> */}
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
