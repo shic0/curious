@@ -1,8 +1,3 @@
-# React JS Resume Web App CV      
-![ReactJS Resume Website CV](demo.jpg?raw=true "ReactJS Resume Website CV")
-### <a href="">LIVE DEMO</a> 
-
-
 ## Available Scripts
 
 In the project directory, you can run:
