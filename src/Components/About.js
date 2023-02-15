@@ -1,22 +1,19 @@
 import React, { Component } from 'react';
-import { Blob } from 'react-blob'
 
 class About extends Component {
   render() {
 
-    if(this.props.data){
+    if(this.props.data) {
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
+      //var city = this.props.data.address.city;
+      //var state = this.props.data.address.state;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
       var resumeDownload_sw = this.props.data.resumedownload_sw;
-      var preferenses = this.props.data.preferens
+      //var age = this.props.data.age
     }
 
     return (
@@ -31,22 +28,16 @@ class About extends Component {
                      alt="Sherin Valestrand"
                      style={{marginBottom: '1rem', borderRadius: '55px', maxWidth: '210px'}}
                      />
-                     <span>{preferenses}</span>
-                  <span>{name}</span>
+                  <h2>{name}</h2>
                </div>
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
-
             <p>{bio}</p>
             <div className="row">
-               <div className="columns contact-details">
+               <div className="columns contact-details" >
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-                     {zip} {city}, {state}, 
-                   </span><br />
 						   <span>{phone}</span><br />
                      <span>{email}</span>
 					   </p>

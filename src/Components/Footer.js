@@ -21,7 +21,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2022 by ME</li>
+              <li>&copy; Copyright 2023 by ME</li>
               <li>Design by <a title="Styleshout" href="">also ME</a></li>
            </ul>
 

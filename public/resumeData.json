@@ -4,16 +4,14 @@
     "occupation": "Web Developer",
     "description": "junior web developer",
     "image": "profilepic.jpg",
-    "preferens": "only 1 h per day", 
-    "bio": "Positive, energetic, mobile moving, likes to work in teams and independently, can speak and write in five different languages.",
-    "contactmessage": "I will reply to your message as soon as I can",
+    "age": "32", 
+    "bio": "I like to code.",
+    "contactmessage": "I look forward to hear from you!",
     "email": "sherin.valestrand@gmail.com",
     "phone": "0733 28 17 96",
     "address": {
-      "street": "Björcksgatan 31a",
       "city": "Gothenburg",
-      "state": "Sweden",
-      "zip": "416 52"
+      "state": "Sweden"
     },
     "website": "",
     "resumedownload": "/doc/sherin_eng_cv.pdf",
@@ -166,5 +164,18 @@
         "user": "Johan Apel"
       }
     ]
+  },
+  "likes": {
+    "colors":[
+    {
+    "color" : "Blue"
+  },
+  {
+    "color" : "red"
+  },
+  {
+    "color" : "white"
   }
+]
+}
 }

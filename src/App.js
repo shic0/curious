@@ -8,7 +8,7 @@ import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
-import Footer from './Components/Footer';
+import Footer from "./Components/Footer";
 import ParticlesBg from "particles-bg";
 
 
@@ -46,7 +46,7 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <div style={{ height: '50px' }}>
+        <div style={{ height: '20px' }}>
           <ParticlesBg type="cobweb" bg={true}/>
         </div>
         <Header data={this.state.resumeData.main}/>

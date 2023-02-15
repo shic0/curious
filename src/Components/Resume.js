@@ -10,7 +10,7 @@ class Resume extends Component {
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       })
-      // window.open() öppna länk i ny flik , on hover blå
+     
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><a href={work.url} title={work.url} target="_blank" rel="noreferrer"><h3 className="hover">{work.company}</h3></a>
                      <p className="info">{work.title}</p>
@@ -29,7 +29,7 @@ class Resume extends Component {
     }
 
     return (
-        <section id="resume">
+      <section id="resume">
       <div className="row education">
          <div className="three columns header-col">
             <h1><span>Education</span></h1>
