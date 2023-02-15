@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 function SendEmailForm() {
-  const [contactName, setContactName] = useState('Sender name ');
+  const [contactName, setContactName] = useState('');
   const [contactEmail, setContactEmail] = useState('sherin.valestrand@gmail.com');
-  const [contactSubject, setContactSubject] = useState('I want to be in touch with you! ');
-  const [contactMessage, setContactMessage] = useState('Text to send ');
+  const [contactSubject, setContactSubject] = useState('');
+  const [contactMessage, setContactMessage] = useState('');
     function sended () {
 
         console.log("Submitted");
@@ -24,6 +24,7 @@ function SendEmailForm() {
         type="text"
         id="contactName"
         value={contactName}
+        placeholder="Your Name"
         onChange={(e) => setContactName(e.target.value)}
       />
       <label htmlFor="contactEmail">Email <span className="required">*</span></label>
@@ -39,12 +40,14 @@ function SendEmailForm() {
         type="text"
         id="contactSubject"
         value={contactSubject}
+        placeholder="I want to be in touch with you!"
         onChange={(e) => setContactSubject(e.target.value)}
       />
       <label htmlFor="contactMessage">Message <span className="required">*</span></label>
       <textarea
         id="contactMessage"
         value={contactMessage}
+        placeholder="Write your message here"
         onChange={(e) => setContactMessage(e.target.value)}
       />
       <button className="submit" onClick={handleSubmit}>
