@@ -15,14 +15,14 @@ class Footer extends Component {
 
      <Featured/>
      <div className="row">
-        <div className="twelve columns">
+        <div className="twelve columns blue">
            <ul className="social-links">
               {networks}
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2023 by ME</li>
-              <li>Design by <a title="Styleshout" href="">also ME</a></li>
+              <li className="blue"> Have a great day, I hope to hear from you!</li>
+            
            </ul>
 
         </div>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import MailSender from "../Components/MailSender"
 class Contact extends Component {
   render() {
@@ -85,3 +85,4 @@ class Contact extends Component {
 }
 
 export default Contact;
+ */

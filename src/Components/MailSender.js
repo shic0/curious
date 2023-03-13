@@ -24,7 +24,7 @@ function SendEmailForm() {
         type="text"
         id="contactName"
         value={contactName}
-        placeholder="Your Name"
+        placeholder="Your Nameç"
         onChange={(e) => setContactName(e.target.value)}
       />
       <label htmlFor="contactEmail">Email <span className="required">*</span></label>

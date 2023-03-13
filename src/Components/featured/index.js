@@ -17,7 +17,7 @@ const Featured = () => {
           />
         </div>
       </div>
-      <Timer />
+  {/*     <Timer /> */}
     </div>
   );
 };

@@ -33,11 +33,19 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   /* background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
-	-webkit-background-size: cover !important; */
+	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+}
+
+.blue {
+   color: #11ABB0;
+}
+
+.white {
+   color: white;
 }
 
 /* vertically center banner section */
@@ -192,7 +200,7 @@ ul#nav li.current a { color: #11ABB0; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: black;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -226,11 +234,11 @@ ul#nav li.current a { color: #11ABB0; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #2B2B2B;
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: #11ABB0;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -273,6 +281,13 @@ ul#nav li.current a { color: #11ABB0; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
+@media (max-width: 760px) {
+   .edu, .date{
+   text-align: center;
+   }
+ }
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;

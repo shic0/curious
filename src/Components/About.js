@@ -10,9 +10,7 @@ class About extends Component {
       //var city = this.props.data.address.city;
       //var state = this.props.data.address.state;
       var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-      var resumeDownload_sw = this.props.data.resumedownload_sw;
+      var email = this.props.data.email; 
       //var age = this.props.data.age
     }
 
@@ -27,12 +25,13 @@ class About extends Component {
                      src={profilepic}
                      alt="Sherin Valestrand"
                      style={{marginBottom: '1rem', borderRadius: '55px', maxWidth: '210px'}}
-                     />
-                  <h2>{name}</h2>
-               </div>
+                  />
+            </div>
          </div>
          <div className="nine columns main-col">
-            <h2>About Me</h2>
+            <div style={{alignItems: "center"}}>
+            <h2 style={{color: "white"}}>About Me</h2>
+            <h3></h3>
             <p>{bio}</p>
             <div className="row">
                <div className="columns contact-details" >
@@ -42,12 +41,7 @@ class About extends Component {
                      <span>{email}</span>
 					   </p>
                </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button" target="_blank" rel="noreferrer"><i className="fa fa-download"></i>Download Resume in English</a>
-                     <a href={resumeDownload_sw} className="button"target="_blank" rel="noreferrer"><i className="fa fa-download"></i>Download Resume in Swedish</a>
-                  </p>
-               </div>
+            </div>
             </div>
          </div>
       </div>
