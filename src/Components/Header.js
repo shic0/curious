@@ -36,7 +36,7 @@ class Header extends Component {
             <h3>
                <span className="white">I'm a {city} based, newly graduated {occupation}
                , looking for my next adventure and opportunity to evolve and grow my backend coding skills.
-               Since my graduation, I have been working as a project manager - Scrum master, for a software company, called WorkPrecision. In this project, the data is highly sensitive, and therefore very backend-heavy. Therefore my interest in the backend is greater than before and I am very excited to learn more!
+               Since my graduation, I have been working as a project manager - Scrum master, for a software company, called WorkPrecision. In this project, the data is highly sensitive, and backend-heavy. Therefore my interest in the backend is greater than before and I am very excited to learn more!
                </span>
             </h3>
             <hr />
